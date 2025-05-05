@@ -1,0 +1,151 @@
+.Navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 35px;
+    height: 75px;
+}
+
+.Navbar img {
+    width: 90px;
+    height: 75px;
+}
+
+.Navbar nav {
+    width: 58%;
+}
+
+.Navbar nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+.Navbar nav ul li {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    list-style: none;
+    position: relative;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    height: 75px !important;
+    display: flex;
+    align-items: center;
+}
+
+.Navbar nav ul li::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 25px;
+    width: 0;
+    height: 8px;
+    background-color: rgba(255, 69, 0, 0.3);
+    transition: width 0.5s;
+}
+
+.Navbar nav ul li:hover::after {
+    width: 100%;
+}
+
+.Navbar nav ul button {
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+    border: 1px solid orangered;
+    border-radius: 30px;
+    padding: 5px 22px;
+    box-sizing: border-box;
+}
+
+.Navbar nav ul button:hover {
+    color: orangered;
+    background-color: white;
+    border: none;
+    border: 1px solid white;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .Navbar nav {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    .Navbar nav {
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    .Navbar nav {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 850px) {
+
+    .Navbar nav {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    .Navbar nav {
+        width: 80%;
+    }
+
+    .Navbar nav ul button {
+        border-radius: 25px;
+        padding: 4px 18px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+
+    .Navbar nav {
+        width: 85%;
+    }
+
+    .Navbar nav ul button {
+        border-radius: 25px;
+        padding: 3px 15px;
+        font-size: 10px;
+    }
+}
+
+
+@media screen and (max-width: 650px) {
+
+    .Navbar nav ul li {
+        font-size: 13px;
+    }
+
+    .Navbar nav ul button {
+        border-radius: 25px;
+        padding: 3px 12px;
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 475px) {
+
+    .Navbar nav ul li {
+        font-size: 10px;
+    }
+
+    .Navbar nav ul button {
+        border-radius: 25px;
+        padding: 3px 12px;
+        font-size: 8px;
+    }
+}

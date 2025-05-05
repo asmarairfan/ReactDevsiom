@@ -1,0 +1,204 @@
+.Process,
+.Process2,
+.Process3,
+.Process4 {
+    width: 200px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 25px 30px;
+    margin: 15px 15px;
+    border-radius: 4px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0.025px 0.025px 7px lightgrey;
+    border-bottom: 5px solid transparent;
+}
+
+.Process2 {
+    width: 200px;
+    height: 130px;
+    border-radius: 20px;
+    justify-content: center;
+    border-bottom: 8px solid black;
+}
+
+.Process3 {
+    width: 190px;
+    height: 120px;
+    margin: 15px 20px;
+    border-radius: 15px;
+    padding: 25px 0px;
+}
+
+.Process4 {
+    width: 235px;
+    height: 90px;
+    padding: 10px 0px;
+    border-radius: 20px;
+}
+
+.Process:hover {
+    border-bottom: 5px solid #F23801
+}
+
+.Process2:hover {
+    border-bottom: 8px solid #F23801
+}
+
+.Process span {
+    font-size: 50px;
+    font-weight: 200;
+    margin: 10px 0px 15px 0px;
+}
+
+.Process3 span {
+    font-size: 55px;
+    margin: 15px 0px 15px 0px;
+}
+
+.Process4 span {
+    font-size: 40px;
+}
+
+.Process h4,
+.Process2 h4 {
+    font-size: 22px;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin: 0;
+    color: black !important;
+}
+
+.Process3 h4 {
+    font-size: 16px;
+    font-family: 'Roboto';
+    color: #5B6674 !important;
+    margin: 0;
+}
+
+.Process4 h4 {
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    color: black;
+    margin: 0;
+    font-weight: 500;
+}
+
+.Process2 h4 {
+    font-size: 55px;
+    font-weight: 700;
+    color: red !important;
+}
+
+.Process p,
+.Process2 p {
+    font-size: 15px;
+    color: #5B6674 !important;
+    font-family: "Roboto";
+    word-wrap: break-word;
+    line-height: 30px;
+}
+
+.Process2 p {
+    font-size: 18px;
+    color: black;
+    margin: 0;
+}
+
+.material-symbols-outlined {
+    font-weight: 200;
+}
+
+@media screen and (max-width: 1300px) {
+
+    .Process {
+        width: 180px;
+        height: 320px;
+        padding: 25px 20px;
+        margin: 15px 15px;
+        border-radius: 4px;
+        border-bottom: 5px solid transparent;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .equal {
+        width: 150px;
+    }
+
+}
+
+@media screen and (max-width: 680px) {
+
+    .Process {
+        width: 420px;
+        height: 340px;
+        padding: 25px 20px;
+        border-radius: 4px;
+        border-bottom: 5px solid transparent;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        font-family: "Roboto";
+    }
+
+    .Process h4 {
+        font-size: 28px;
+    }
+
+    .Process p {
+        font-size: 20px;
+    }
+
+    .equal {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 765px) {
+
+    .Process3 {
+        width: 180px;
+        height: 120px;
+        margin: 15px 20px;
+        border-radius: 15px;
+        padding: 25px 0px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+
+    .Process4 {
+        width: 200px;
+        height: 90px;
+        padding: 10px 0px;
+        border-radius: 20px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+
+    .Process4 {
+        width: 150px;
+        height: 70px;
+        padding: 10px 0px;
+        border-radius: 20px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+
+    .Process4 {
+        width: 130px;
+        height: 70px;
+        padding: 10px 0px;
+        border-radius: 20px;
+    }
+}
